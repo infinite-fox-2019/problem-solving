@@ -1,5 +1,6 @@
 /*
 GET an array of member which have a length by 3 and contains a string data as Tono, Anton and Budi to each array index respectively
+
 FOR day = 7 to 31
     set message as "Tanggal day:"
     IF day EQUALS TO 7
@@ -8,8 +9,14 @@ FOR day = 7 to 31
     ELSE IF day MODULO 2
         DISPLAY message Plus Tono
     ELSE IF day MODULO 4 
+        DISPLAY message Plus Anton
+    ELSE IF day MODULO 5
+        DISPLAY message Plus Budi
+    ELSE
+        DISPLAY message
+    END IF
 */
-/*
+
 var member = ['Tono', 'Anton', 'Budi'];
 console.log(`Tanggal 7: ` + member);
 var count = 0;
@@ -28,7 +35,8 @@ for (var i = 8; i <= 31; i++) {
     console.log(message);
   }
 }
-*/
+
+/*
 var member = ['Tono', 'Anton', 'Budi'];
 for (var i = 7; i <= 31; i++) {
   var message = `Tanggal ${i}: `;
@@ -39,3 +47,4 @@ for (var i = 7; i <= 31; i++) {
     console.log(message);
   }
 }
+*/

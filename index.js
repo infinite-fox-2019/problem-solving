@@ -1,5 +1,6 @@
-// PSEUDOCODE:
 /*
+PSEUDOCODE:
+
 LET var out equals to empty array
 LOOP FOR initiate i start with 7 until i less than equals to 31,  DO
     STORE 'out' with empty string
@@ -20,26 +21,21 @@ LOOP FOR initiate i start with 7 until i less than equals to 31,  DO
 END FOR
 */
 
-
-function fitness (){
-    var out = [];
-    for (var i=7; i<=31; i++){
-        if (i % 5 === 0){
-            console.log('Tanggal ' + i+ ':' + 'Tempat fitness tutup ')
-        }else {
-            out = []
-            if ( (i-7) % 2 == 0){
-                out.push('Tono');
-            }
-            if ((i-7) % 4 == 0){
-            out.push('Anton');
-            }
-            if ((i-7) % 5 === 0){
-            out.push('Budi');
-            }
-            console.log('Tanggal ' + i+ ':' + out.join(', '))
+var out = [];
+for (var i=7; i<=31; i++){
+    if (i % 5 === 0){
+        console.log('Tanggal ' + i+ ':' + 'Tempat fitness tutup ')
+    }else {
+        out = []
+        if ( (i-7) % 2 == 0){
+            out.push('Tono');
         }
+        if ((i-7) % 4 == 0){
+        out.push('Anton');
+        }
+        if ((i-7) % 5 === 0){
+        out.push('Budi');
+        }
+        console.log('Tanggal ' + i+ ':' + out.join(', '))
     }
 }
-
-fitness()

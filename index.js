@@ -43,4 +43,4 @@ function calendar(date) {
     }
 }
 
-console.log(calendar(31))
+calendar(31)

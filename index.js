@@ -14,6 +14,8 @@ FOR each date from 7 to 31 (inclusively)
         IF day is divisible by 5
             SET attendance to attendance + 'Budi, '
         Display attendance without the last 2 characters of attendance
+    ENDIF
+ENDFOR
 */
 
 for(i = 7; i <= 31; i++) {

@@ -1,7 +1,5 @@
 
 /*
-
-
 STORE 'member' with empty array
 STORE 'hasil' with emty string
 STORE 'isLibur' with false
@@ -54,13 +52,6 @@ FOR 'i' less than 31
 END FOR
 */
 
-// STORE "score" to any number
-
-// IF "score" < 70
-//   DO "learn more"
-// ELSE
-//   DO "reward myself"
-// DO "continue with life..."
 
 var member = [];
 var hasil = ``;
